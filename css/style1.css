@@ -64,7 +64,7 @@ section.sobre{
 
   .parceiras img{
     display: block;
-    width: 25px;
+    width: 100px;
     margin: 20px 0;
   }
   
@@ -96,14 +96,14 @@ section.sobre{
 
   table {
    border-collapse: collapse ;
-    width: 105%;
+    width: 100%;
     border: none;
     padding: 0;
     
 }
 
 table, th, td {
-    border: 0px solid black;
+    border: 10px solid #3b27f3;
 }
 
 th, td {
@@ -118,27 +118,3 @@ img {
     height: auto;
 }
   
-section.tabela{
-    position: relative;
-}
-  
-.mais{
-    position: absolute;
-    bottom: -300px;
-    left: 100px;
-    width: 300px;
-    height: 300px;
-    border-radius: 60%;
-    background-color: #3b27f3;
-}
-
-.exemplo{
-    position: absolute;
-    left: -300px;
-    top: 600px;
-  }
-
-  .exemplo img{
-    width: 50px;
-    margin:  0;
-  }
